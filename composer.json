@@ -9,10 +9,12 @@
     },
     "repositories": [
         {
-            "type": "github",
+            "type": "vcs",
             "url": "https://github.com/GTLSlb/Composer_Libraries.git",
             "branch": "main"
         }
     ],
-    "require": {}
+    "require": {
+        "Composer_Libraries": "main"
+    }
 }
