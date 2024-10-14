@@ -14,7 +14,5 @@
             "branch": "main"
         }
     ],
-    "require": {
-        "Composer_Libraries": "main"
-    }
+    "require": {}
 }
