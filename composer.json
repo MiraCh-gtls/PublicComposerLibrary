@@ -10,12 +10,20 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/GTLSlb/Composer_Libraries.git"
+            "type": "package",
+            "package": {
+                "name": "gtls/loginstory",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/GTLSlb/Composer_Libraries.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
         }
     ],
     "require-all": true,
     "require": {
-        "GTLSlb/Composer_Libraries": "dev-main"
+        "gtls/loginstory": "dev-main"
     }
 }
